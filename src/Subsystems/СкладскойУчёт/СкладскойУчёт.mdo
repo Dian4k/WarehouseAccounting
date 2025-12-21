@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="643eab36-c33c-4734-b13e-69004ba56cab">
+  <name>СкладскойУчёт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складской учёт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Properties</picture>
+  </picture>
+  <content>Document.ЗакупкаТоваров</content>
+  <content>Document.ПродажаТоваров</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>InformationRegister.ЦенаТовара</content>
+  <content>Enum.СпособыРасчетаСебестоимости</content>
+  <content>InformationRegister.СпособРасчетаСебестоимости</content>
+  <content>AccumulationRegister.ПартииТоваровНаСкладах</content>
+  <content>Report.КоличественноСуммовойУчетТоваров</content>
+  <content>Report.ВаловаяПрибыль</content>
+  <content>Report.КоличественноСуммовойУчетТаблица</content>
+  <content>Document.СменаМетодаРасчетаСебестоимости</content>
+  <content>AccumulationRegister.БронированиеТоваров</content>
+  <content>Document.ИнтерактивноеБронированиеТоваров</content>
+</mdclass:Subsystem>

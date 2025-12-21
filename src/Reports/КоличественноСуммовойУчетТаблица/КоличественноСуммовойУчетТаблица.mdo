@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d73c427-2f7d-4b1a-8268-5ec559f114b5">
+  <producedTypes>
+    <objectType typeId="046d8920-18c6-4844-aaff-b1adb9475833" valueTypeId="6a1913aa-ae68-49dc-bd0e-fa4475035d1d"/>
+    <managerType typeId="2b2306bb-c215-4117-a943-10bc68c67ea5" valueTypeId="e60850ee-70ef-40ab-aec6-e5b4b02f1f76"/>
+  </producedTypes>
+  <name>КоличественноСуммовойУчетТаблица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количественно суммовой учет таблица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КоличественноСуммовойУчетТаблица.Form.ФормаОтчета</defaultForm>
+  <forms uuid="240b8faf-fbb4-461c-9982-b9e791be5673">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d2e722dc-91b1-4bc9-aa15-bb1ac9a474fb">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

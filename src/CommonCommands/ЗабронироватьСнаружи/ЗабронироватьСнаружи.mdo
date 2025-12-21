@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f77f9f85-91d3-4323-af41-41fca256d00f">
+  <name>ЗабронироватьСнаружи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Забронировать снаружи</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ПродажаТоваров</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

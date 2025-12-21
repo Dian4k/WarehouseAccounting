@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55ad17c5-7808-41ec-a134-5ed9a86c95f6">
+  <producedTypes>
+    <objectType typeId="438ab228-2e61-45fd-9a29-e0e61cbd82b1" valueTypeId="1a584888-7e62-4cfa-bf45-f8c4867c1088"/>
+    <managerType typeId="a98c8c6f-969f-439c-875f-cd3d8efd13c0" valueTypeId="24307f23-a36c-45a0-897f-f962e3b8d855"/>
+  </producedTypes>
+  <name>КоличественноСуммовойУчетТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количественно суммовой учет товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КоличественноСуммовойУчетТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6d1f8265-02e8-43be-9153-f5a4e707ae54">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

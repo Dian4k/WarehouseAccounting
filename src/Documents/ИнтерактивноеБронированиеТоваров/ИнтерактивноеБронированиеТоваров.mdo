@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c087967c-038f-47ed-980f-fa892fd7e17a">
+  <producedTypes>
+    <objectType typeId="b3a78544-6fbb-4917-b7f1-0fdd2712e3ea" valueTypeId="cb92c31a-65c8-45ac-848d-13457bae568a"/>
+    <refType typeId="f574f674-95b8-4dc6-8d62-8b3a0db6258b" valueTypeId="4749ee31-2d87-4ec5-92ba-48be50e4a90b"/>
+    <selectionType typeId="91333e2d-8cbb-4986-a1b1-a5cd826f3224" valueTypeId="609b124f-314c-40cd-b88d-a3731bfb543c"/>
+    <listType typeId="f69ed768-b980-465d-be10-691ae1326d21" valueTypeId="6177aa20-d1ce-40db-bcda-45652d83f514"/>
+    <managerType typeId="1df9f477-b642-4863-8e1a-281c174b8c63" valueTypeId="49846281-bb3f-405f-ac39-6765c00ea165"/>
+  </producedTypes>
+  <name>ИнтерактивноеБронированиеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерактивное бронирование товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИнтерактивноеБронированиеТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИнтерактивноеБронированиеТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="ea55c6ae-42f6-4fe6-b286-7974e3091ff5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

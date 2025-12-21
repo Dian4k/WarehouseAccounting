@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3365df19-146f-4840-a8a8-5db025b8af04">
+  <producedTypes>
+    <selectionType typeId="73ebe7dc-923a-40a3-8eb6-1764fe3eb9aa" valueTypeId="e2228fcf-f5cf-496b-b789-fecb5d19d146"/>
+    <listType typeId="d1c70138-d65a-479e-bf9c-c60705586358" valueTypeId="253a61b9-35db-4a19-9a76-94bbb5e26e2d"/>
+    <managerType typeId="ead503d0-41d5-497c-a945-c5726e165d93" valueTypeId="ca3a1f92-9ebc-4700-8cdc-1b69578fa489"/>
+    <recordSetType typeId="f4431eb9-1644-4a2f-ba43-c955e75d1a94" valueTypeId="6faeee11-4bd2-4482-85c1-b2fa0faf305b"/>
+    <recordKeyType typeId="dd0e3f5e-d966-4b97-9301-7b0d826eb4ab" valueTypeId="c03dd371-87ee-45ea-b637-b6c75bfc6f9d"/>
+    <recordType typeId="20f8311a-dda8-4dfe-a841-96c1e274bc1a" valueTypeId="5fb00b01-3d50-4e81-8424-2294d8eefae4"/>
+    <recordManagerType typeId="5c582613-d549-46ad-93ef-9a2df81a0b4c" valueTypeId="1dcfb59e-caf0-4934-90a7-8b94db609843"/>
+  </producedTypes>
+  <name>СпособРасчетаСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ расчета себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СпособРасчетаСебестоимости.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="87687684-10d6-4425-93e5-49925bbed915">
+    <name>МетодРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРасчетаСебестоимости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="63cb611a-6639-4acb-a7f6-f49da58126bc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c8d9090-5777-4e1d-87c5-38a1b0aaf31e">
+  <producedTypes>
+    <objectType typeId="10a64dd5-846d-440d-acf0-126b0b701e3b" valueTypeId="2dd891a7-4663-4939-ab9e-c33684d8e159"/>
+    <refType typeId="6c0f85ac-44ac-4fe8-aec9-a409197b5b59" valueTypeId="ac2c1b1b-8b95-4643-9aa6-8d7ffd44fba4"/>
+    <selectionType typeId="c8b26dc8-9330-4eca-bea9-f78d9423a859" valueTypeId="0f8599a6-86b3-49ae-8597-bc515bae2fc9"/>
+    <listType typeId="4ecd020b-dc6f-4995-9a2c-a21613564f8c" valueTypeId="028392b2-fd91-4ff0-8a04-cb7d0689917b"/>
+    <managerType typeId="1cd3fcfc-7695-44fd-9fef-ed72fe30e073" valueTypeId="aa9b4f9e-53d5-4e45-960f-15d718eab21a"/>
+  </producedTypes>
+  <name>СменаМетодаРасчетаСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смена метода расчета себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СменаМетодаРасчетаСебестоимости.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СменаМетодаРасчетаСебестоимости.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="03110e96-464f-4d42-8fdd-c192325589b9">
+    <name>НовыйМетодРасчетаСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый метод расчета себестоимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРасчетаСебестоимости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e308dc04-76a9-4e75-a0a3-cbf2fac5e454">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

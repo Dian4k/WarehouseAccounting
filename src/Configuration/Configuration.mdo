@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22649280-0a2a-4161-b8e3-aef9c29e210d">
+  <name>СкладскойУчёт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складской учёт</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c9b6a31e-089e-42f9-b22c-8da3981d4cf8"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3227d6b4-c33e-47fd-8e7b-9d52ab35e97c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e10351b6-671f-4961-9314-52b5590d8f34"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="04a8658a-eb3d-4b6d-ad84-592513a39368"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="14186e36-2695-4ad2-a474-2fde5f03bcb2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9c52d665-dd23-4e20-b94e-942afcd227a6"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1bbce0ac-db8f-47ac-8bb0-6cc9468f434d"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="1ac4dc9d-c23e-4456-91a9-a37d0ed8d119">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.СкладскойУчёт</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
+  <commonModules>CommonModule.РасчетСуммы</commonModules>
+  <commonCommands>CommonCommand.ЗабронироватьСнаружи</commonCommands>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ЗакупкаТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.СменаМетодаРасчетаСебестоимости</documents>
+  <documents>Document.ПриходныйКассовыйОрдер</documents>
+  <documents>Document.РасходныйКассовыйОрдер</documents>
+  <documents>Document.ИнтерактивноеБронированиеТоваров</documents>
+  <documents>Document.РучнаяКоррекцияЗадолженности</documents>
+  <enums>Enum.ТипКонтрагента</enums>
+  <enums>Enum.РольКонтрагента</enums>
+  <enums>Enum.СпособыРасчетаСебестоимости</enums>
+  <reports>Report.КоличественноСуммовойУчетТоваров</reports>
+  <reports>Report.ВаловаяПрибыль</reports>
+  <reports>Report.КоличественноСуммовойУчетТаблица</reports>
+  <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
+  <informationRegisters>InformationRegister.СпособРасчетаСебестоимости</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПартииТоваровНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Задолженности</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БронированиеТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
+</mdclass:Configuration>
