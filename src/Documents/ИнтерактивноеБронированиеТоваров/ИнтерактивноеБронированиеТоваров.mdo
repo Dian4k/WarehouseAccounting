@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.ИнтерактивноеБронированиеТоваров.Form.ФормаДокумента</defaultObjectForm>
   <posting>Deny</posting>
   <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <forms uuid="ea55c6ae-42f6-4fe6-b286-7974e3091ff5">

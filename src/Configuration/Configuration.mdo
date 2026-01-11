@@ -54,18 +54,23 @@
   <documents>Document.РасходныйКассовыйОрдер</documents>
   <documents>Document.ИнтерактивноеБронированиеТоваров</documents>
   <documents>Document.РучнаяКоррекцияЗадолженности</documents>
+  <sequences>Sequence.Товарная</sequences>
   <enums>Enum.ТипКонтрагента</enums>
   <enums>Enum.РольКонтрагента</enums>
   <enums>Enum.СпособыРасчетаСебестоимости</enums>
   <reports>Report.КоличественноСуммовойУчетТоваров</reports>
   <reports>Report.ВаловаяПрибыль</reports>
   <reports>Report.КоличественноСуммовойУчетТаблица</reports>
+  <reports>Report.ЗадолженностьКонтрагентов</reports>
+  <reports>Report.ПлатежиПокупателей</reports>
+  <reports>Report.МатериальнаяВедомость</reports>
   <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
   <informationRegisters>InformationRegister.СпособРасчетаСебестоимости</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииТоваровНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Задолженности</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БронированиеТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СвободныеОстатки</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>

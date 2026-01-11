@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.ПродажаТоваров.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccountingRegister.РегистрБухУчет</registerRecords>
   <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <registerRecords>AccumulationRegister.Задолженности</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>

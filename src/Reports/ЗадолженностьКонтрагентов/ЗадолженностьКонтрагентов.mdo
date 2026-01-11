@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed5176d6-186d-46d0-8a3d-13be8fbc1b72">
+  <producedTypes>
+    <objectType typeId="d4be0a05-e6b2-4942-8a3e-24dce09fcc3a" valueTypeId="0952e01f-d5ce-4f02-946f-9ad4c6d63cbb"/>
+    <managerType typeId="33367166-32ff-4e87-96e2-fcca7cc7a5fc" valueTypeId="e3dafdbb-d3bc-494f-b29c-e5247e7a267d"/>
+  </producedTypes>
+  <name>ЗадолженностьКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗадолженностьКонтрагентов.Template.ОсновнаяСхемаКомпоновкиДанных2</mainDataCompositionSchema>
+  <templates uuid="f3804aee-a138-421f-8377-c2d7ca8a124e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="41009025-f534-453d-b0c8-80a203b9fd98">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="42f056f2-5ba5-41fe-b34a-5f57a536f7ef">
+    <name>ОсновнаяСхемаКомпоновкиДанных2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных2</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

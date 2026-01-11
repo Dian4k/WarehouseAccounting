@@ -17,4 +17,6 @@
   <content>Document.ПриходныйКассовыйОрдер</content>
   <content>Document.РасходныйКассовыйОрдер</content>
   <content>Document.РучнаяКоррекцияЗадолженности</content>
+  <content>Report.ЗадолженностьКонтрагентов</content>
+  <content>Report.ПлатежиПокупателей</content>
 </mdclass:Subsystem>

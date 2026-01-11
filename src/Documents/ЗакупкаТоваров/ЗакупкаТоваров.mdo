@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗакупкаТоваров.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccountingRegister.РегистрБухУчет</registerRecords>
+  <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <registerRecords>AccumulationRegister.Задолженности</registerRecords>
   <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>

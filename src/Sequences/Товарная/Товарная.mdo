@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="744886d3-3f00-411b-98d9-a07aa693334e">
+  <producedTypes>
+    <recordType typeId="cc30a063-dcb7-4158-ae7a-b3c8afea26bf" valueTypeId="df2874cc-6acc-4057-bdb9-eaa2e8e3cfdc"/>
+    <managerType typeId="55c7262c-2d29-48c3-8ff7-979b5a725952" valueTypeId="1b6a0749-7d9d-4396-a29d-89a2f59bda5f"/>
+    <recordSetType typeId="b6b95c09-4857-46e5-bb04-27cd7064c4c3" valueTypeId="14f7cd15-b090-49a3-8e6a-27a9f38fd661"/>
+  </producedTypes>
+  <name>Товарная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарная</value>
+  </synonym>
+  <documents>Document.ПродажаТоваров</documents>
+  <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Sequence>

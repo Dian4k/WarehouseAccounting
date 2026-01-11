@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b3c7fc5-5d85-4934-b09b-601419e93bf8">
+  <producedTypes>
+    <objectType typeId="00d626d8-22f4-4bc1-85a6-4ceb6f238788" valueTypeId="28610b44-2a51-4d8f-aa13-609e10610c43"/>
+    <managerType typeId="1ef8e599-0359-435e-b023-8c213af525de" valueTypeId="c0cf7ede-162d-4c02-bcdc-0223a314fb45"/>
+  </producedTypes>
+  <name>ПлатежиПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежи покупателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПлатежиПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c8859ab0-6a89-44fa-a382-dd19b5201d96">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

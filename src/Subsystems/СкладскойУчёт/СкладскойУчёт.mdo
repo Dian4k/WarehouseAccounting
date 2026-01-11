@@ -23,4 +23,7 @@
   <content>Document.СменаМетодаРасчетаСебестоимости</content>
   <content>AccumulationRegister.БронированиеТоваров</content>
   <content>Document.ИнтерактивноеБронированиеТоваров</content>
+  <content>Report.МатериальнаяВедомость</content>
+  <content>Sequence.Товарная</content>
+  <content>AccumulationRegister.СвободныеОстатки</content>
 </mdclass:Subsystem>
